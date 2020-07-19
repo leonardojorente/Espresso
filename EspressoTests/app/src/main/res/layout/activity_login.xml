@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/titleEmail"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="@string/title_email" />
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:autofillHints="@string/hint_email"
+            android:ems="10"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/titlePassword"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="@string/title_password" />
+
+        <EditText
+            android:id="@+id/inputPassword"
+            android:autofillHints="@string/hint_password"
+            android:hint="@string/hint_password"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="236dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:text="@string/login_button"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EspressoTests</string>
+    <string name="action_settings">action_settings</string>
+    <string name="title_email">Input your Email</string>
+    <string name="title_password">Input your Password</string>
+    <string name="login_button">Enter</string>
+    <string name="hint_email">your email here</string>
+    <string name="hint_password">your password here</string>
+    <string name="text_dialog_message">Check this message</string>
+    <string-array name="recycler_view_items">
+        <item>RecyclerViewItem1</item>
+        <item>RecyclerViewItem2</item>
+        <item>RecyclerViewItem3</item>
+        <item>RecyclerViewItem4</item>
+        <item>RecyclerViewItem5</item>
+        <item>RecyclerViewItem6</item>
+        <item>RecyclerViewItem7</item>
+    </string-array>
+    <string-array name="recycler_view_item_descriptions">
+        <item>Random description 1</item>
+        <item>Random description 2</item>
+        <item>Random description 3</item>
+        <item>Random description 4</item>
+        <item>Random description 5</item>
+        <item>Random description 6</item>
+        <item>Random description 7</item>
+    </string-array>
+
+</resources>

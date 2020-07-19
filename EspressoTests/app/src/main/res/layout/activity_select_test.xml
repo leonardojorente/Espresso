@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectTestActivity"
+    android:id="@+id/SelectTestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button_idle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idle Test" />
+
+        <Button
+            android:id="@+id/button_browser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Browser" />
+
+        <Button
+            android:id="@+id/button_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Camera" />
+
+        <Button
+            android:id="@+id/button_recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycler view" />
+
+        <Button
+            android:id="@+id/button_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Dialog" />
+
+        <Button
+            android:id="@+id/button_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toast Test" />
+
+        <Button
+            android:id="@+id/button_gallery_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Gallery"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <Button
+            android:id="@+id/button_back_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="400dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
